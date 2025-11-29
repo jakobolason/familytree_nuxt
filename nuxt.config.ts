@@ -39,7 +39,7 @@ export default defineNuxtConfig({
         headerName: 'Authorization',
         maxAgeInSeconds: 1800,
         sameSiteAttribute: 'lax',
-        cookieDomain: 'localhost',
+        //cookieDomain: 'localhost',
         secureCookieAttribute: false,
         httpOnlyCookieAttribute: false,
       },

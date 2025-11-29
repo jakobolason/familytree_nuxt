@@ -5,6 +5,6 @@
 <template>
   <div>
     <p> Log in here </p>
-    <UButton @click="signIn(credentials, {callbackUrl: '/'})"> here </UButton>
+    <LoginForm />
   </div>
 </template>
